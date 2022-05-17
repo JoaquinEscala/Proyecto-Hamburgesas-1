@@ -316,6 +316,21 @@ section{
    }
 }
 
+.servicio{
+   @extend .title;
+   max-width: 300px;
+   text-align: center;
+   > img{
+      @extend .image;
+
+   }
+   > .title{
+      @extend .title;
+   }
+   > content{
+      @extend .content;
+   }
+}
 
 .contacto{
 
